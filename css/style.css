@@ -4228,3 +4228,15 @@ html.is-animating .mil-menu-frame {
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
 }
+.mil-logo img {
+  max-width: 309px; /* Adjust based on your logo size */
+  height: auto;
+  display: flex; /* Ensures the logo is centered if necessary */
+  mix-blend-mode: exclusion; /* Resets any blend mode */
+  filter: none; /* Removes any filters */
+}
+.mil-frame-top {
+  background-color: #ffffff; /* Or any dark color that suits the site's theme */
+  /* Ensure there's enough contrast for the logo to stand out */
+}
+
