@@ -5762,10 +5762,14 @@ i {
   font-size: var(--noile-size-md);
   color: var(--noile-primary, #1d1d1d);
   text-transform: capitalize;
-  line-height: 1.5;
+  line-height: 2;
   background-color: var(--noile-white2, #F6F6F6);
   border-radius: 50px;
   margin-bottom: 50px;
+  box-sizing: border-box element.style {
+height: 105px;
+}
+
 }
 @media (max-width: 767px) {
   .service-one__category {
